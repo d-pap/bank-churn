@@ -1,7 +1,3 @@
----
-Summarized version of my bank churn project
----
-
 # Introduction
 
 In this project, I will be predicting the churn for customers at a bank. The dataset is for ABC Multistate Bank and was obtained from Kaggle (https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset). The dataset includes 12 columns and 10,000 rows, where each row represents a customer. The columns it includes are:
