@@ -25,8 +25,6 @@ Another feature I think would be a big driver in churn is `active_member`. I thi
 
 # EDA: Descriptive Statistics and Visualizations
 
-**INCLUDE SUMMARY STATS TABLE HERE**
-
 Our binary categorical variables are `credit_card`, `active_member`, and `churn`. From this summary, we can see that about 70% of the customers in the dataset have a credit card (based on the mean `credit_card`), about 50% of the customers in the dataset are an active member, and we have many more customers in the dataset that did not churn, compared to those who did churn (roughly 20% of the customers churned). Also, the `customer_id` column will be irrelevant for our model, so we can drop that column when we perform the data cleaning. 
 
 We see that we have an imbalance target variable, `churn`. It has a mean of 0.2037, meaning that 20.37% of the customers have churned, while almost 80% have not. This imbalance could lead to a biased model that may not perform well on the minority class (churned customers). We should fix this imbalance by oversampling the minority class, undersampling the majority class, or using a combination of both (e.g., SMOTE)
